@@ -1,0 +1,640 @@
+/*
+Theme Name: Gauntlet Theme
+Text Domain: Gauntlet Theme
+Version: 0.2.2
+Description: Gauntlet Business Theme
+Author: Afton Gauntlett
+Tags: Business, Parallax, Minimalist, Responsive
+Author URL: https://aftongauntlett.com/
+*/
+
+/* Font */
+.navbar, .btn, .card, .form-control, p, .footer {
+    font-family: 'Fondamento', cursive;
+}
+
+h1 {
+    font-family: 'Fondamento', cursive;
+}
+
+/* Navbar */
+.navbar {
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.nav-item a:hover, .dropdown-item:hover {
+    text-decoration: none;
+    color: #c3e4d9!important;
+}
+
+a:visited{
+    color: #60C1A2;
+  }
+
+.grow {
+    transition: all .2s ease-in-out;  
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.nav-item a {
+    color: #60C1A2;
+}
+
+.dropdown-item {
+    font-size: 20px;
+}
+
+.juri {
+    font-size: 50px!important;
+    margin-left: 15px;
+}
+
+.juri::first-letter {
+    color: #60C1A2;
+}
+
+.navmenu {
+    font-size: 20px;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    margin-bottom: unset!important;
+}
+
+/* Carousel */
+
+.carousel-image {
+    opacity: 90% !important;
+}
+
+.centered {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(115, 89, 89, 0.5);
+}
+
+/* Card */
+.redBtn {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.redBtn:hover{
+    transform: scale(1.1);
+}
+
+.redBtn {
+    background: #60C1A2!important;
+    color: #d9d5d5!important;
+}
+
+.card {
+    text-align: center;
+}
+
+.card:hover {
+    background: #eceaea;
+    box-shadow: 6px 5px 9px 0px #60C1A2;
+}
+
+.aCard{
+    text-decoration: none!important;
+    color: rgb(19, 75, 75)!important;
+}
+
+.lawIcon:hover {
+    color: #60C1A2!important;
+}
+
+.card:hover .lawIcon {
+    color: #60C1A2!important;
+}
+
+.card .card-text, .card .card-title, .card .lawIcon {
+    color:rgb(19, 75, 75);
+}
+
+.card:hover .card-text, .card:hover .card-title {
+    color: rgb(19, 75, 75);
+}
+
+/* Form */
+
+.contactBackground {
+    background-color: #375557 !important;
+}
+
+.contactFont {
+    color: white!important;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formWrap{
+    margin: 30px;
+}
+
+
+.contactBox {
+    justify-content: space-around;
+    align-content: space-around
+}
+
+
+.contact {
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'PT Serif', serif;
+}
+
+.alink {
+    text-decoration: none;
+    color: #acacac!important;
+}
+
+.alink:hover {
+    color: white !important;
+}
+
+.btn-outline-light {
+    color: #60C1A2;
+    border-color: #60C1A2;
+}
+
+.btn-outline-light:hover {
+    border: 0;
+}
+
+.contactIcon {
+    color: #60C1A2 !important;
+}
+
+.contactIcon:hover {
+color: #c3e4d9 !important;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #acacac;
+}
+
+.iconSocial:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.form-group {
+    width: 375px;
+}
+
+/* Quote */
+
+.quote {
+    text-align: center;
+    background-color: #60C1A2;
+    font-family: 'Tangerine', cursive;
+    color: rgba(19, 75, 75, 0.562);
+}
+
+.quoteText {
+    font-size: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.mainQuote {
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: rgb(19, 75, 75);
+
+}
+
+@media (max-width: 568px){
+    .mainQuote {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 568px){
+    .quoteText {
+        font-size: 15px;
+    }
+}
+.quoteBackground {
+    background-color: #60C1A2!important;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'PT Serif', serif;
+    color: #60C1A2;
+    padding-top: 40px;
+    padding-bottom: 35px;
+
+}
+
+.top {
+    font-size: 25px;
+    font-family: 'Fondamento', cursive;
+}
+
+.contact {
+    font-family: 'Fondamento', cursive;
+    color: #60C1A2;
+
+
+}
+
+/*Parallax*/
+
+body, html {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-family: 'PT Serif', serif;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 80%;
+}
+
+.main-image{
+    min-height: 100%;
+    position: relative;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: unset !important;
+}
+
+.dropdown-item .nav-link {
+    padding: unset;
+}
+
+.pimg-top {
+    min-height: 200px;
+}
+
+.pimg-bottom{
+    min-height: 600px;
+    flex-grow: 1;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    color: #666;
+    background-color: #343a40;
+  }
+  
+  .section-dark{
+    background-color: #343333;
+    color: #ddd;
+  }
+
+@media (max-width: 568px){
+    .section {
+        padding: 0 0;
+    }
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.ptext div img {
+    max-width: 95vw;
+
+}
+
+/*  CSS Color Gradient */
+
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    }
+    
+    .color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    opacity: none;
+    }
+
+    /* END */
+
+    
+.mainPage {
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    background-color:#343a40;
+}
+
+.picture-column{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.shadow {
+    box-shadow: 5px 5px 8px 2px #60C1A2;
+}
+
+
+
+.mainText {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Tangerine', cursive;
+
+}
+
+@media (max-width: 568px){
+    .mainText {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 568px){
+    .pimg3, .pimg2, .pimg1 {
+        background-attachment: scroll;
+    }
+}
+
+/* Slide In Effect */
+
+.come-in {
+    transform: translateY(150px);
+    animation: come-in 1s ease forwards;
+}
+.come-in:nth-child(odd) {
+    animation-duration: 1s; /* So they look staggered */
+}
+  
+  @keyframes come-in {
+    to { transform: translateY(0); }
+  }
+
+  /* Typewriter Effect */
+  @media only screen and (min-width: 750px) {
+
+  .typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+}
+
+
+.company-info-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #666;
+    background-color: #343a40;
+    text-align: center;
+    font-family: 'PT Serif', serif; 
+    align-content: center;
+}
+
+.mainText {
+    font-size: 70px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 568px){
+    .mainText {
+      font-size: 30px;
+    }
+  }
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .ptext .border.trans {
+    background-color: transparent!important;
+  }
+
+.company-info-footer div {
+    min-width: 30%;
+}
+
+/* Bootstrap edits */
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #343a40;
+}
+
+ul.dropdown-menu li > ul.dropdown-menu{
+    left: 100%;
+    top: 0; 
+    display: none !important;
+    color:  #60C1A2;
+}
+
+.navbar-brand {
+    margin: unset !important;
+}
+
+ul.dropdown-menu li a.nav-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.navbar-light .navbar-nav ul.dropdown-menu li a.nav-link {
+    color: #60C1A2;
+}
+
+ul.dropdown-menu li:hover > ul.dropdown-menu, ul.dropdown-menu li:focus > ul.dropdown-menu{
+    display: block !important;
+}
+
+.card {
+    background-color: #60C1A2;
+    color: #f3ecec;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #60C1A2;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color:  #dae4e1d2;
+}
+
+/* Rotating Button */
+
+@media only screen and (min-width: 600px) {
+   
+.mainButtons {
+    font-family: "Montserrat", sans-serif;
+    color:  #60C1A2;
+    font-size: 20px;
+}
+.btn-secondary {
+    border: none;
+}
+
+.btn {
+    position: relative;
+    width: 256px;
+    height: 100px;
+    line-height: 55px;
+    transition: all 0.3s;
+    background-color: unset;
+}
+
+.btn:hover {
+    background-color: unset !important;
+    color: #c3e4d9;
+}
+
+span {
+    transition: all 0.3s;
+}
+
+.btn::before, .btn::after {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.idle::before, .idle::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s;
+    border: 1px solid  #60C1A2;
+}
+.idle:hover::after {
+    animation-name: rotatecw;
+    animation-duration: 2s;
+    border: 1px solid  #c3e4d9;
+
+}
+.idle:hover::before {
+    animation-name: rotateccw;
+    animation-duration: 3s;
+    border: 1px solid  #c3e4d9;
+
+}
+.idle:hover::after, .idle:hover::before {
+    left: 90px;
+    width: 64px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotatecw {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateccw {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+}
