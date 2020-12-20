@@ -1,7 +1,7 @@
 /*
 Theme Name: Gauntlet Theme
 Text Domain: Gauntlet Theme
-Version: 0.1.1
+Version: 0.1.2
 Description: Gauntlet Business Theme
 Author: Afton Gauntlett
 Tags: Business, Parallax, Minimalist, Responsive
@@ -20,6 +20,13 @@ h1 {
 /* Navbar */
 .navbar {
     color: white;
+}
+
+.page-image img {
+    box-shadow: 2px 2px 5px 0px #545859;
+    width: 50%;
+    height: auto;
+    justify-content: center;
 }
 
 .dropdown:hover .dropdown-menu {
